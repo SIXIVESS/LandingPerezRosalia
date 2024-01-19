@@ -7,18 +7,45 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : rosal
 */
 
-body {
-    font-family: Arial, sans-serif;
-}
-header {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-}
-h1, h2 {
-    color: #6c757d;
-}
-ul {
-    list-style-type: none;
-}
+ @keyframes slideRight {
+                0% {
+                    transform: translateX(-100%);
+                }
+                100% {
+                    transform: translateX(100%); /* Desplaza el texto hacia la derecha */
+                }
+            }
+            .logo img {
+                max-width: 100px;
+                height: auto;
+                align-content: flex-start;
+                background: white;
+            }
+
+            .titulo h1{
+                margin-left: auto;
+                font-family: sans-serif;
+                animation: slideRight 9s linear infinite;
+                color: white;
+            }
+
+            .tabla{
+                background: white;
+            }
+
+            .contenedor{
+                font-family: sans-serif;
+
+                background-color: #898dd9;
+            }
+
+            .footer{
+                margin-top: 8rem;
+            }
+
+            .nav-bg{
+                margin-bottom:  2rem;
+
+            }
+
 
